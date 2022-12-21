@@ -1,5 +1,3 @@
-// Make a readme
-// Check for different sources of images
 import fetch from 'node-fetch';
 import cheerio from 'cheerio';
 import fs from 'fs';
