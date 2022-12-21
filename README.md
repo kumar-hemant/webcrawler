@@ -17,7 +17,7 @@ This is a CLI based generic web crawler application. The CLI accepts two paramet
 
 ## Limitation
 
-- This program only checks for images from img and picture tag and not in the CSS.
+- This program only checks for images from `img` and `picture` tag and not in the CSS.
 - This program works for server rendered HTML only and not client rendered HTML.
 
 ### Happy Crawling
