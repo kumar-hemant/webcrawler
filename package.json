@@ -1,0 +1,24 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "Crawls web page based on depth",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "npm run ./index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumar-hemant/webcrawler.git"
+  },
+  "author": "hkhemant3377@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumar-hemant/webcrawler/issues"
+  },
+  "homepage": "https://github.com/kumar-hemant/webcrawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.0"
+  }
+}
