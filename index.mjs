@@ -43,7 +43,6 @@ function getData(url, currentDepth = 0) {
       }
   
       res.text().then(htmlString => {
-        console.log('inside then');
         const $ = cheerio.load(htmlString);
         const images = $("img");
         for (let image of images) {
