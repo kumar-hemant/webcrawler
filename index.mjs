@@ -8,11 +8,16 @@ let [nodeV, file, url, depth] = process.argv;
 
 depth = Number(depth);
 
-console.log(process.argv);
-
 // Handling of parameters
 if (typeof url !== "string" || !url) {
   console.error("Please add valid URL");
+  process.exit();
+}
+
+try {
+  new URL(url);
+} catch (err) {
+  console.error("Please enter a valid URL");
   process.exit();
 }
 
