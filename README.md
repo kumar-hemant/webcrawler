@@ -1,6 +1,6 @@
 ## Generic Web Crawler
 
-This is a CLI based generic web crawler application. The CLI accepts two parameters for crawling and save the URL of the images present in the HTML in the output.json folder. 
+This is a CLI based generic web crawler application. The CLI accepts two parameters for crawling and save the URL of the images present in the HTML in the output.json file. 
 
 #### The CLI params are:
 
