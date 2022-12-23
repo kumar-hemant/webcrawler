@@ -12,7 +12,7 @@ This is a CLI based generic web crawler application. The CLI accepts two paramet
 1. Clone the repo. `git clone https://github.com/kumar-hemant/webcrawler <foldername>`
 2. Go to the cloned folder. `cd <foldername>`
 3. Install the dependencies. `npm i`
-4. Run the program using  `node index.mjs <url> <depth>`. Eg: node index.mjs https://www.xataka.com/lomejor 2
+4. Run the program using  `node index.mjs <url> <depth>`. Eg: `node index.mjs https://www.xataka.com/lomejor 2`
 5. Once the program is complete, your data will be saved in the output.json file.
 
 ## Limitation
