@@ -100,9 +100,7 @@ function getData(url, currentDepth = 0) {
 
 // Save to file
 function appendToFile() {
-  console.log("inside reading module");
   var writeStream = fs.createWriteStream("output.json");
-  console.log('final output: ', jsonData)
   writeStream.write(JSON.stringify({"results": jsonData}));
   console.log("Program executed successfully");
 }
