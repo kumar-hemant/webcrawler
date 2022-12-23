@@ -37,7 +37,7 @@ function getData(url, currentDepth = 0) {
       resolve()
       return;
     }
-    console.log('fetching for: ', url);
+
     return fetch(url).then(res => {
       console.log('res.ok:' , res.ok);
       if (!res.ok) {
